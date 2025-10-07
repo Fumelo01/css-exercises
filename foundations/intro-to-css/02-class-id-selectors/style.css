@@ -1,6 +1,23 @@
 /* Add CSS Styling */
+<<<<<<< HEAD
 
 p{
     background-color: pink;
     font-family: Verdana, 'DejaVu Sans', sans-serif,;
+=======
+p {
+  background-color: pink;
+  font-family: Verdana, "DejaVu Sans", Sans-Serif;
+}
+.two {
+  color: blue;
+  font-size: 36px;
+}
+.three, .four{
+  font-size: 24px;
+}
+.four {
+  font-weight: bold;
+  background-color: #00ff00 ;
+>>>>>>> 3e48e953688175cdd2de814caa9631c891689070
 }
