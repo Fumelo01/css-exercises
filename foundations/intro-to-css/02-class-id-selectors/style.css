@@ -1,1 +1,16 @@
 /* Add CSS Styling */
+p {
+  background-color: pink;
+  font-family: Verdana, "DejaVu Sans", Sans-Serif;
+}
+.two {
+  color: blue;
+  font-size: 36px;
+}
+.three, .four{
+  font-size: 24px;
+}
+.four {
+  font-weight: bold;
+  background-color: #00ff00 ;
+}
