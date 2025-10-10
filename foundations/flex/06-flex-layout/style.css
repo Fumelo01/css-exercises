@@ -34,9 +34,9 @@ ul {
   margin: 0;
 }
 
-a {
+a, button {
   text-decoration: none;
-  color: rgb(100, 100, 100);
+  color: rgb(80, 80, 80);
 }
 
 .header, .footer {
@@ -51,9 +51,23 @@ a {
 
 .left-links, .right-links {
   display: flex;
-  gap: 10px;
+  gap: 17px;
 }
 
 .content {
-  align-self: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+}
+
+.buttons {
+  margin-top: 15px;
+  display:flex;
+  gap: 7px;
+}
+
+button {
+  padding: 7px 14px;
 }
